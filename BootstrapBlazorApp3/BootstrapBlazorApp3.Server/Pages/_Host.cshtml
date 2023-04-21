@@ -1,0 +1,9 @@
+﻿@page "/"
+@namespace BootstrapBlazorApp3.Server.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using BootstrapBlazorApp3.Shared
+@{
+    Layout = "_Layout";
+}
+
+<component type="typeof(App)" render-mode="ServerPrerendered" />
