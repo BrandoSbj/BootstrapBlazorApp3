@@ -1,6 +1,9 @@
 ﻿@page "/table"
 @attribute [TabItemOption(Text = "Table")]
 <h3>Component1</h3>
+<Serach1></Serach1>
+
+
 <Table class="mt-3" ShowEmpty="true" HeaderStyle="TableHeaderStyle.Light" Items="students" TItem="Student" @bind-SelectedRows="SelectedStudents" IsMultipleSelect="true" ShowExtendButtons="false" ShowRefresh="false" ShowDefaultButtons="false" ShowExtendEditButton="false" ShowExtendDeleteButton="false" AutoGenerateColumns="true" ShowExportButton="true" ShowToolbar="true">
     <TableColumns>
     </TableColumns>

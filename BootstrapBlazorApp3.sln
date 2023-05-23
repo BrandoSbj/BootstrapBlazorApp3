@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapBlazorApp3.Server", "BootstrapBlazorApp3\BootstrapBlazorApp3.Server\BootstrapBlazorApp3.Server.csproj", "{0107A180-4B92-47DC-B6AC-2ACC44F8815A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BootstrapBlazorApp3.Server", "BootstrapBlazorApp3\BootstrapBlazorApp3.Server\BootstrapBlazorApp3.Server.csproj", "{0107A180-4B92-47DC-B6AC-2ACC44F8815A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapBlazorApp3.WebAssembly", "BootstrapBlazorApp3\BootstrapBlazorApp3.WebAssembly\BootstrapBlazorApp3.WebAssembly.csproj", "{AF79271E-A3D4-4C6D-8444-5099DBAA584B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BootstrapBlazorApp3.WebAssembly", "BootstrapBlazorApp3\BootstrapBlazorApp3.WebAssembly\BootstrapBlazorApp3.WebAssembly.csproj", "{AF79271E-A3D4-4C6D-8444-5099DBAA584B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapBlazorApp3.Shared", "BootstrapBlazorApp3\BootstrapBlazorApp3.Shared\BootstrapBlazorApp3.Shared.csproj", "{EFCBEEBC-AB4D-4634-89F9-41816D9E7232}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BootstrapBlazorApp3.Shared", "BootstrapBlazorApp3\BootstrapBlazorApp3.Shared\BootstrapBlazorApp3.Shared.csproj", "{EFCBEEBC-AB4D-4634-89F9-41816D9E7232}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
