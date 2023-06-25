@@ -1,0 +1,31 @@
+﻿@page "/SweetAlert"
+@inject SwalService SwalService
+
+<Button Icon="fa-solid fa-font-awesome" Text="Title" Color="Color.Success" OnClick="@ShowTitle" />
+@code {
+
+    protected override async Task OnInitializedAsync()
+    {
+        base.OnInitialized();
+        //需求页面加载时显示一个提示信息，由于是看板使用，需要这个信息自动关闭，注释掉下面这行后，button中的弹窗也好用了
+        await ShowAutoCloseSwal(SwalCategory.Success, "页面加载时的弹窗", 3000);
+
+    }
+
+    private async Task ShowTitle()
+    {
+        await ShowAutoCloseSwal(SwalCategory.Success, "操作成功，正在等待后台处理", 3000);
+    }
+    private async Task ShowAutoCloseSwal(SwalCategory swalCategory, string title, int closedTime)
+    {
+        var op = new SwalOption()
+            {
+                Category = swalCategory,
+                Title = title,
+                IsAutoHide = true,
+                Delay = closedTime,
+                ShowClose = false
+            };
+        await SwalService.Show(op);
+    }
+}
