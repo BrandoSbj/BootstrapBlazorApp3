@@ -6,7 +6,8 @@
 
 <p>Current count: @currentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+@*<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>*@
+<PopConfirmButton class="btn btn-primary" @onclick="IncrementCount" TooltipText="设置TooltipText后，按钮失效">PopConfirmButton</PopConfirmButton>
 
 @code {
     private int currentCount = 0;
