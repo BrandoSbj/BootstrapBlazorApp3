@@ -8,6 +8,9 @@
 
 @*<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>*@
 <PopConfirmButton class="btn btn-primary" @onclick="IncrementCount" TooltipText="设置TooltipText后，按钮失效">PopConfirmButton</PopConfirmButton>
+<Tooltip Title="设置TooltipText后，按钮失效">
+    <PopConfirmButton class="btn btn-primary" @onclick="IncrementCount">PopConfirmButton2</PopConfirmButton>
+</Tooltip>
 
 @code {
     private int currentCount = 0;
